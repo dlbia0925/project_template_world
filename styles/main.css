@@ -116,8 +116,8 @@ a {
     text-decoration: underline;
 }
 
-.mostpop {
-    margin-top: 32px;
+.mostpop, .big-recommend {
+    margin-top: 36px;
 }
 
 .titlewrap {
@@ -136,8 +136,8 @@ h2 {
     margin-top: 24px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 32px;
-    column-gap: 30px;
+    row-gap: 28px;
+    column-gap: 32px;
     justify-content: space-between;
 } 
 
@@ -164,7 +164,7 @@ hr {
 }
 
 .book img {
-    height: 200px;
+    height: 160px;
     border-radius: 16px 16px 0 0;
 }
 
@@ -173,5 +173,20 @@ hr {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.125em;
     color: #333;
-    padding: 16px 0;
+    padding: 16px 16px;
+}
+
+#newfooter {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: #46484A;
+    color: #D9D9D9;
+    padding: 8px 0;
+    margin-top: 48px;
+}
+
+#newfooter a {
+    color: #D9D9D9;
+    text-decoration: underline;
 }
