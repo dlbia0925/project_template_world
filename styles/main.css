@@ -24,7 +24,9 @@ body {
 }
 
 .rightside {
-    margin: 32px 40px 28px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 32px 40px 0 0;
 }
 
 #center {
@@ -134,6 +136,7 @@ h2 {
 
 .book-list {
     margin-top: 24px;
+    margin-bottom: 32px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 30px;
@@ -177,6 +180,15 @@ hr {
     padding: 16px 12px;
 }
 
+.footer {
+    align-self: flex-end;
+    padding-top: 8px;
+}
+
+.disclaimer {
+    width: 80%;
+}
+
 #newfooter {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 0.8em;
@@ -184,7 +196,7 @@ hr {
     background-color: #46484A;
     color: #D9D9D9;
     padding: 8px 0;
-    margin-top: 48px;
+    margin-top: 16px;
 }
 
 #newfooter a {
