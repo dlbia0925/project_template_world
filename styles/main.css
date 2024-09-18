@@ -102,16 +102,72 @@ a {
     padding-top: 22px;
 }
 
-.rec-items a {
+.rec-items a, .more {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1em;
     color: #666;
 }
 
-.rec-items a:hover {
+.rec-items a:hover, .titlewrap a:hover {
     color: #DF822D;
 }
 
 .more {
     text-decoration: underline;
+}
+
+.mostpop {
+    margin-top: 32px;
+}
+
+.titlewrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.book-list {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 32px;
+    column-gap: 30px;
+    justify-content: space-between;
+} 
+
+.book {
+    text-align: center;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.book:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 6px 12px 2px rgb(0 0 0 / 16%);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #D9D9D9;
+}
+
+.book img {
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+}
+
+.book-list p {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.125em;
+    color: #333;
+    padding: 24px 0;
 }
