@@ -14,7 +14,7 @@ body {
 
 #logo-header {
     margin-top: 28px;
-    margin-left: 40px;
+    margin-left: 36px;
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
 .rightside {
     display: flex;
     flex-direction: column;
-    margin: 32px 40px 0 0;
+    margin: 32px 36px 0 0;
 }
 
 #center {
