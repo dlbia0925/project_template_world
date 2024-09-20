@@ -288,14 +288,15 @@ hr {
 }
 
 .list li {
-    margin: 4px 0 0 33px;
-    padding: 12px 14px 12px 24px;
+    margin: 4px 8px 0 33px;
+    padding: 12px 26px 12px 24px;
     border-radius: 8px;
     cursor: pointer;
 }
 
 .foldicon {
     transition: transform 200ms ease;
+    overflow: visible;
     transform-origin: center;
 }
 
@@ -305,11 +306,12 @@ hr {
 
 .list li.selected {
     /* margin-top: 4px; */
+    margin-right: 8px;
     background-color: white;
     font-weight: bold;
     color: black;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
-    padding: 12px 14px 12px 24px;
+    padding: 12px 26px 12px 24px;
 }
 
 .list li.selected:hover {
