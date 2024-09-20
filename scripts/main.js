@@ -26,3 +26,23 @@ $(document).ready(function () {
         });
     });
 });
+
+$(document).ready(function () {
+    // For each clickable list item
+    $(".hvr-fade").click(function () {
+        // Remove the 'selected' class from any previously selected item
+        $(".hvr-fade").removeClass("selected");
+
+        // Add 'selected' class to the clicked item
+        $(this).addClass("selected");
+    });
+});
+
+$(document).ready(function () {
+    $('.list li').click(function () {
+        // Remove .selected from all list items
+        $('.list li').removeClass('selected');
+        // Add .selected only to the clicked list item
+        $(this).addClass('selected');
+    });
+});
