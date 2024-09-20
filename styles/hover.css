@@ -1203,11 +1203,11 @@
   background-color: #E9E9E9;
 }
 
-.hvr-fade:active {
+/* .hvr-fade:active {
   background-color: white;
   font-weight: bold;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
-}
+} */
 
 /* Back Pulse */
 @-webkit-keyframes hvr-back-pulse {
