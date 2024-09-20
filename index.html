@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/hover.css">
     <link rel="stylesheet" href="styles/hint.css" />
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/main.js"></script>
 </head>
 
 <body>
@@ -20,25 +22,29 @@
             </div>
 
             <div id="navleft">
-                <div>
-                    <img src="img/home_icon.svg" alt=""><span>Home</span>
+                <div id="navhome" class="nav-first-title hvr-fade">
+                    <img class="nav-icon" src="img/home_icon.svg" alt=""><span class="nav-title-text">Home</span>
                 </div>
 
-                <div>
-                    <img src="img/home_icon.svg" alt=""><span>Newest</span>
+                <div class="nav-first-title hvr-fade">
+                    <img class="nav-icon" src="img/home_icon.svg" alt=""><span class="nav-title-text">Newest</span>
                 </div>
 
                 <div class="navgap"></div>
 
                 <ul>
                     <li>
-                        <p><img src="img/home_icon.svg" alt=""><span>Letters</span></p>
-                        <ul>
-                            <li>Auto Insurance Verification</li>
-                            <li>Campaign Donation Request</li>
-                            <li>Vehicle Appraisal Verification</li>
-                            <li>Salary Verification Request</li>
-                        </ul>
+                        <p id="navtitle">
+                            <img src="img/home_icon.svg" alt=""><span>Letters</span><img src="img/Vector 1.png" alt="">
+                        </p>
+                        <div id="wrapper" class="open">
+                            <ul id="list">
+                                <li><a href="#">Auto Insurance Verification</a></li>
+                                <li>Campaign Donation Request</li>
+                                <li>Vehicle Appraisal Verification</li>
+                                <li>Salary Verification Request</li>
+                            </ul>
+                        </div>
                     </li>
 
                     <li>

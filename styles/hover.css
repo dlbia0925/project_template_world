@@ -1188,7 +1188,7 @@
 /* BACKGROUND TRANSITIONS */
 /* Fade */
 .hvr-fade {
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -1199,9 +1199,14 @@
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
-.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #2098D1;
-  color: white;
+.hvr-fade:hover, .hvr-fade:focus {
+  background-color: #E9E9E9;
+}
+
+.hvr-fade:active {
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
 }
 
 /* Back Pulse */
