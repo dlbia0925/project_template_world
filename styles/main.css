@@ -274,3 +274,12 @@ hr {
     border-radius: 8px;
     cursor: pointer;
 }
+
+.foldicon {
+    transition: transform 200ms ease; 
+    transform-origin: center; 
+}
+
+.foldicon.flipped {
+    transform: rotate(180deg); 
+}
