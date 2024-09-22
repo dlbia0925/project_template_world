@@ -363,3 +363,6 @@ hr {
 .searchButton:hover {
     background: #FFA723;
 }
+.searchButton:active {
+    background: rgb(249 135 0);
+}
