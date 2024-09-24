@@ -347,7 +347,7 @@ hr {
 }
 
 .searchButton {
-    right: 36px;
+    /* right: 36px; */
     position: absolute;
     margin-right: 4px;
     padding: 10px 24px 12px 24px;
@@ -457,6 +457,74 @@ hr {
         max-width: 1280px
     }
 
+    .container {
+        column-gap: 24px;
+    }
+
+    #logo-header {
+        margin-top: 24px;
+        margin-left: 26px;
+    }
+
+    #navleft {
+        padding-left: 14px;
+    }
+
+    .rightside {
+        margin: 24px 26px 0 0;
+    }
+
+    #center {
+        margin-bottom: 28px;
+    }
+
+    #center h1 {
+        font-size: 1.5em;
+    }
+
+    #center h2 {
+        font-size: 1em;
+    }
+
+    .textwrap {
+        padding: 24px 0px 24px 28px;
+    }
+
+    #cse-search-box {
+        padding-top: 24px;
+        padding-right: 28px;
+    }
+
+
+    .mostpop, .big-recommend {
+        margin-top: 28px;
+    }
+
+    .titlewrap h2 {
+        font-size: 1.375em;
+    }
+
+    .rec {
+        padding: 20px 24px 20px 24px;
+    }
+
+    .rec-h3 {
+        font-size: 1em;
+    }
+
+    .rec-items {
+        column-gap: 24px;
+        row-gap: 8px;
+        padding-top: 16px;
+    }
+
+    .more {
+        font-size: 0.875em;
+    }
+
+    .book-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 /* tablet */
