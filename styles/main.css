@@ -8,12 +8,12 @@ body {
     font-size: 100%;
     background-color: #F6F6F6;
     width: 100%;
-    min-width: 1600px;
+    min-width: 1512px;
     max-width: 1920px
 }
 
 #logo-header {
-    margin-top: 28px;
+    margin-top: 32px;
     margin-left: 36px;
 }
 
@@ -35,9 +35,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    column-gap: 48px;
     border-radius: 16px;
     background: linear-gradient(89deg, #F99621 15%, #FAC847 100%);
-    margin-bottom: 28px;
+    margin-bottom: 36px;
 }
 
 #center h1 {
@@ -144,7 +145,7 @@ h2 {
 
 .book-list {
     margin-top: 24px;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 30px;
@@ -334,7 +335,7 @@ hr {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
     border: none;
     border-right: none;
-    padding: 14px 110px 14px 24px;
+    padding: 14px 120px 14px 24px;
     border-radius: 8px 8px 8px 8px;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1em;
@@ -363,6 +364,117 @@ hr {
 .searchButton:hover {
     background: #FFA723;
 }
+
 .searchButton:active {
     background: rgb(249 135 0);
+}
+
+/* large */
+@media screen and (max-width: 1512px) {
+
+    body {
+        min-width: 1280px;
+        max-width: 1512px
+    }
+
+    .container {
+        column-gap: 28px;
+    }
+
+    #logo-header {
+        margin-top: 28px;
+        margin-left: 32px;
+    }
+
+    #navleft {
+        padding-left: 20px;
+    }
+
+    .nav-title-text {
+        font-size: 1em;
+    }
+
+    .wrapper a {
+        font-size: 0.875em;
+    }
+
+    .rightside {
+        margin: 28px 32px 0 0;
+    }
+
+    #center {
+        margin-bottom: 32px;
+    }
+
+    #center h1 {
+        font-size: 1.75em;
+    }
+
+    #center h2 {
+        font-size: 1.125em;
+    }
+
+    #center p {
+        font-size: 0.875em;
+    }
+
+    .searchTerm {
+        padding: 10px 120px 10px 16px;
+        font-size: 0.875em;
+    }
+
+    .searchButton {
+        margin-right: 3px;
+        padding: 7px 24px 8px 24px;
+    }
+
+    .small-recommend {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        gap: 24px;
+    }
+
+    .book-list {
+        margin-top: 16px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 24px;
+    }
+
+    .mostpop, .big-recommend {
+        margin-top: 32px;
+    }
+
+    .footer {
+        margin-top: 16px;
+    }
+}
+
+/* mid */
+@media screen and (max-width: 1280px) {
+
+    body {
+        min-width: 1133px;
+        max-width: 1280px
+    }
+
+}
+
+/* tablet */
+@media screen and (max-width: 1133px) {
+
+    body {
+        min-width: 768px;
+        max-width: 1133px
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+
+    body {
+        min-width: 375px;
+        max-width: 768px
+    }
+
 }
