@@ -568,7 +568,6 @@ nav {
 
     .responsive-nav {
         width: 96px;
-        z-index: 1;
         height: 100vh;
         position: fixed;
         top: 0;
@@ -585,9 +584,9 @@ nav {
         margin: 16px 0 0 0;
         padding-right: 26px;
         box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.16);
-        background-color: rgb(255 249 240 / 80%);
-        backdrop-filter: blur(6px);
-        transition: height 0.3s ease;
+        background-color: rgb(255 249 240 / 90%);
+        backdrop-filter: blur(10px);
+        transition: width 0.3s ease;
         top: -173px;
         position: relative;
     }
