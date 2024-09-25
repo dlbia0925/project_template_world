@@ -369,12 +369,16 @@ hr {
     background: rgb(249 135 0);
 }
 
+nav {
+    display: none;
+}
+
 /* large */
 @media screen and (max-width: 1512px) {
 
     body {
         min-width: 1280px;
-        max-width: 1512px
+        max-width: 1512px;
     }
 
     .container {
@@ -454,7 +458,7 @@ hr {
 
     body {
         min-width: 1133px;
-        max-width: 1280px
+        max-width: 1280px;
     }
 
     .container {
@@ -495,7 +499,6 @@ hr {
         padding-right: 28px;
     }
 
-
     .mostpop, .big-recommend {
         margin-top: 28px;
     }
@@ -531,18 +534,255 @@ hr {
 @media screen and (max-width: 1133px) {
 
     body {
+        min-width: 960px;
+        max-width: 1133px;
+    }
+
+    .container {
+        display: flex;
+        column-gap: 24px;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .leftside {
+        display: none;
+    }
+
+    #navleft-expand ul {
+        list-style: none;
+    }
+
+    .expandul {
+        padding-left: 26px;
+        padding-top: 24px;
+    }
+
+    nav {
+        box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.16);
+        background-color: rgb(255, 249, 240);
+    }
+
+    .responsive-nav {
+        width: 96px;
+        /* position: sticky;
+        top: 0; */
+        z-index: 1;
+    }
+
+    #navleft-expand {
+        width: 324px;
+        display: none;
+        margin: 16px 0 0 0;
+        /* padding-left: 14px; */
+        padding-right: 26px;
+        box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.16);
+        background-color: rgb(255 249 240 / 80%);
+        backdrop-filter: blur(6px);
+        overflow: hidden;
+        transition: height 0.3s ease;
+
+        top: -173px;
+        position: relative;
+    }
+
+    #logo-header-fold {
+        margin: 24px 26px;
+    }
+
+    #logo-header-expand {
+        margin-top: 24px;
+        margin-left: 26px;
+        margin-bottom: 24px;
+    }
+
+    .hamburger {
+        font-size: 1.8em;
+        color: rgb(255, 255, 255);
+        background-color: #FFB933;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        padding-top: 0px;
+        padding-right: 8px;
+        padding-bottom: 4px;
+        padding-left: 7px;
+        margin-left: 24px;
+    }
+
+    .rightside {
+        margin: 24px 24px 0 0;
+    }
+
+    #center {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .textwrap {
+        order: 2;
+        padding-right: 28px;
+        padding-top: 18px;
+    }
+
+    #cse-search-box {
+        order: 1;
+        padding-left: 28px;
+    }
+
+    .searchTerm {
+        padding: 10px 240px 10px 16px;
+    }
+
+    .small-recommend {
+        gap: 20px;
+    }
+
+    .rec h3 {
+        font-size: 1.125em;
+    }
+
+    .rec-items {
+        row-gap: 5px;
+        padding-top: 10px;
+    }
+
+    .rec-items a {
+        font-size: 0.875em;
+    }
+
+    .footer {
+        margin-bottom: 16px;
+    }
+
+    #newfooter {
+        margin-top: unset;
+    }
+}
+
+@media screen and (max-width:960px) {
+
+    body {
+        min-width: 834px;
+        max-width: 960px;
+    }
+
+    .book-list {
+        gap: 20px;
+    }
+
+    .book img {
+        height: 160px;
+    }
+
+    .book-list p {
+        font-size: 0.875em;
+    }
+
+}
+
+@media screen and (max-width:834px) {
+
+    body {
         min-width: 768px;
-        max-width: 1133px
+        max-width: 834px;
+    }
+
+    .rightside {
+        margin: 24px 20px 0 0;
+    }
+
+    .book-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .book img {
+        height: 190px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    body {
+        min-width: 675px;
+        max-width: 768px;
+    }
+
+    .small-recommend {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book img {
+        height: 160px;
+    }
+
+    #newfooter {
+        font-size: 0.625em;
     }
 
 }
 
 /* mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 675px) {
+
+    body {
+        min-width: 512px;
+        max-width: 675px;
+    }
+
+    .searchTerm {
+        padding: 10px 120px 10px 16px;
+    }
+
+    .book-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 512px) {
 
     body {
         min-width: 375px;
-        max-width: 768px
+        max-width: 512px;
+    }
+
+    #center h1 {
+        font-size: 1.125em;
+    }
+
+    .textwrap {
+        padding-left: 18px;
+        padding-top: 16px;
+    }
+
+    #cse-search-box {
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-right: 16px;
+    }
+
+    .searchTerm {
+        padding: 10px 50px 10px 12px;
+        font-size: 0.75em;
+    }
+
+    .searchButton {
+        font-size: 0.75em;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .book-list {
+        grid-template-columns: 1fr;
+    }
+
+    .book img {
+        height: 240px;
     }
 
 }
