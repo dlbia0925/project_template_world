@@ -558,6 +558,7 @@ nav {
     .expandul {
         padding-left: 26px;
         padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     nav {
@@ -567,23 +568,26 @@ nav {
 
     .responsive-nav {
         width: 96px;
-        /* position: sticky;
-        top: 0; */
+        z-index: 1;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
         z-index: 1;
     }
 
     #navleft-expand {
+        height: 100%;
+        overflow-y: auto;
+        position: fixed;
         width: 324px;
         display: none;
         margin: 16px 0 0 0;
-        /* padding-left: 14px; */
         padding-right: 26px;
         box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.16);
         background-color: rgb(255 249 240 / 80%);
         backdrop-filter: blur(6px);
-        overflow: hidden;
         transition: height 0.3s ease;
-
         top: -173px;
         position: relative;
     }
@@ -613,7 +617,7 @@ nav {
     }
 
     .rightside {
-        margin: 24px 24px 0 0;
+        margin: 24px 24px 0 120px;
     }
 
     #center {
@@ -691,7 +695,7 @@ nav {
     }
 
     .rightside {
-        margin: 24px 20px 0 0;
+        margin: 24px 20px 0 120px;
     }
 
     .book-list {
@@ -751,6 +755,26 @@ nav {
         max-width: 512px;
     }
 
+    .responsive-nav {
+        width: 64px;
+    }
+
+    #logo-header-fold, .hamburger {
+        margin-left: 11px;
+    }
+
+    .rightside {
+        margin: 24px 20px 0 88px;
+    }
+
+    .expandul {
+        padding-left: 12px;
+    }
+
+    #logo-header-expand {
+        margin-left: 11px;
+    }
+
     #center h1 {
         font-size: 1.125em;
     }
@@ -767,7 +791,7 @@ nav {
     }
 
     .searchTerm {
-        padding: 10px 50px 10px 12px;
+        padding: 10px 80px 10px 12px;
         font-size: 0.75em;
     }
 
