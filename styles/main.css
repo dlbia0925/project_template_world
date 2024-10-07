@@ -662,6 +662,9 @@ nav {
 
     #newfooter {
         margin-top: unset;
+        margin-left: 96px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
 
@@ -810,6 +813,7 @@ nav {
 
     #newfooter {
         font-size: 11px;
+        margin-left: 64px;
     }
 
 }

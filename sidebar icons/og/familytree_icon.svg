@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000039846086256742006490000001066487320513856665_);}
+	.st2{fill:url(#SVGID_00000174584974163210599680000001122412017721236663_);}
+	.st3{fill:#A1F7CB;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.015" y1="14.846" x2="8.9829" y2="14.846">
+	<stop  offset="0" style="stop-color:#8FEAB4"/>
+	<stop  offset="1" style="stop-color:#3EE56E"/>
+</linearGradient>
+<path class="st0" d="M7.6,19.3H2.4c-0.8,0-1.4-0.6-1.4-1.4v-6.2c0-0.8,0.6-1.4,1.4-1.4h5.2C8.4,10.4,9,11,9,11.8v6.2
+	C9,18.7,8.4,19.3,7.6,19.3z"/>
+<linearGradient id="SVGID_00000069363682824162401020000003313225085597384883_" gradientUnits="userSpaceOnUse" x1="10.2219" y1="6.124" x2="18.9955" y2="6.124">
+	<stop  offset="0" style="stop-color:#8FEAB4"/>
+	<stop  offset="1" style="stop-color:#3EE56E"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000069363682824162401020000003313225085597384883_);" d="M17.6,10h-6c-0.8,0-1.4-0.6-1.4-1.4v-5
+	c0-0.8,0.6-1.4,1.4-1.4h6c0.8,0,1.4,0.6,1.4,1.4v5C19,9.4,18.4,10,17.6,10z"/>
+<linearGradient id="SVGID_00000060007365824084170800000017861736562857694395_" gradientUnits="userSpaceOnUse" x1="3.7587" y1="8.9906" x2="16.6852" y2="8.9906">
+	<stop  offset="0" style="stop-color:#8FEAB4"/>
+	<stop  offset="1" style="stop-color:#3EE56E"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000060007365824084170800000017861736562857694395_);" d="M15.3,17.3H5.2c-0.8,0-1.4-0.6-1.4-1.4V2.1
+	c0-0.8,0.6-1.4,1.4-1.4h10.1c0.8,0,1.4,0.6,1.4,1.4v13.8C16.7,16.7,16.1,17.3,15.3,17.3z"/>
+<path class="st3" d="M7.6,10.4H3.8v5.3c0,0.9,0.6,1.6,1.4,1.6H9v-5.3C9,11.1,8.4,10.4,7.6,10.4z"/>
+<path class="st3" d="M16.7,2.2h-4.4c-0.7,0-1.2,0.5-1.2,1.1v5.5c0,0.6,0.5,1.1,1.2,1.1h4.4V2.2z"/>
+</svg>
